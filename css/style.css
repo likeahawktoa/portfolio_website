@@ -1,0 +1,44 @@
+h1 {
+    color:blueviolet
+}
+body{
+    margin: 0px;
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+}
+#header {
+    width: 1024px;
+    height: 150px;
+    background-color: rgb(113, 198, 227);
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    
+}
+#main_container {
+    width: 1024px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: orange;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#about_me {
+    margin: 37px;
+    height: 400px;
+    width: 950px;
+    border: 2px solid blueviolet;
+    justify-content: left;
+}
+
+#picture_of_amber {
+    height: 400px;
+    width: 475px;
+    background-color: blue;
+    align-self: start;
+    
+}
