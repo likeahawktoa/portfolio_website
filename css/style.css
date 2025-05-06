@@ -13,7 +13,8 @@ body{
     background-color: rgb(113, 198, 227);
     display: flex;
     border: 1px solid black;
-    justify-content: center;
+    justify-content: left;
+    font-style: PT Sans, sans-serif;
     
 }
 #main_container {
@@ -25,6 +26,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+
 }
 
 #about_me {
@@ -32,13 +34,27 @@ body{
     height: 400px;
     width: 950px;
     border: 2px solid blueviolet;
-    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #picture_of_amber {
     height: 400px;
     width: 475px;
     background-color: blue;
-    align-self: start;
-    
+    order: 1;
+    align-self: flex-start;
+}
+
+#about_amber {
+    order: 2;
+    height: 400px;
+    width: 420px;
+    align-items: center;
+    background-color: gray;
+    margin: 20px;
+    align-self: right;
+    flex-shrink: 5;
 }
