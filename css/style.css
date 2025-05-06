@@ -14,8 +14,24 @@ body{
     display: flex;
     border: 1px solid black;
     justify-content: left;
-    font-style: PT Sans, sans-serif;
+    font-family: PT Sans light, sans-serif;
+    font-size: 40px;
     
+}
+#personal_logo {
+padding: 25px;
+height: 125px;
+width: 125px;
+}
+#nav_buttons {
+    width: 1024px;
+    height: 50px;
+    background-color: rgb(113, 198, 227);
+    display: flex;
+    border: 1px solid black;
+    justify-content: left;
+    font-family: PT Sans light, sans-serif;
+    font-size: 35px;
 }
 #main_container {
     width: 1024px;
@@ -55,6 +71,18 @@ body{
     align-items: center;
     background-color: gray;
     margin: 20px;
-    align-self: right;
     flex-shrink: 5;
+    padding: 10px;
+    text-align: center;
 }
+#about_title {
+    font-size: 35px;
+    color: black;
+    font-family: PT Sans, sans-serif;
+}
+#about_text {
+    font-size: 25px;
+    color: black;
+    font-family: PT Sans, sans-serif;
+}
+
