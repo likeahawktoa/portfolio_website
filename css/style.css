@@ -6,6 +6,7 @@ body{
     display: flex;
     background-color: lightblue;
     justify-content: center;
+    font-family: PT Sans, sans-serif;
 }
 #header {
     width: 1024px;
@@ -42,18 +43,16 @@ width: 125px;
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
+/* ABOUT ME SECTION */
 #about_me {
-    margin: 37px;
+    margin-top: 40px;
     height: 400px;
-    width: 950px;
+    width: 1022px;
     border: 2px solid blueviolet;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    align-self: center;
 }
 
 #picture_of_amber {
@@ -61,22 +60,22 @@ width: 125px;
     width: 475px;
     background-color: blue;
     order: 1;
-    align-self: flex-start;
+    float:left;
 }
 
 #about_amber {
     order: 2;
-    height: 400px;
+    height: 380px;
     width: 420px;
     align-items: center;
     background-color: gray;
-    margin: 20px;
     flex-shrink: 5;
     padding: 10px;
     text-align: center;
+    float: right;
 }
 #about_title {
-    font-size: 35px;
+    font-size: 40px;
     color: black;
     font-family: PT Sans, sans-serif;
 }
@@ -86,3 +85,83 @@ width: 125px;
     font-family: PT Sans, sans-serif;
 }
 
+/* PORTFOLIO SECTION */
+
+#PORTFOLIO {
+  margin-top: 40px;  
+}
+
+#portfolio_title {
+    font-size: 35px;
+    color: black;
+    font-family: PT Sans, sans-serif;
+    text-align: center;
+}
+
+#portfolio_item_title {
+    font-size: 40px;
+    color: black;
+    font-family: PT Sans, sans-serif;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+#portfolio_item_desc {
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    color: black;
+    font-family: PT Sans, sans-serif;
+    text-align: center;
+}
+
+/* grateful mashup */
+#grateful_mashup {
+    margin-top: 40px;
+    height: 135px;
+    width: 1022px;
+    align-self: center;
+}
+
+#grateful_mashup_text {
+    float:right;
+    text-align: right;
+    width: 500px;
+}
+
+#grateful_mashup_img {
+    float:left;
+}
+
+/* mailbox */
+#mailbox {
+    margin-top: 40px;
+    height: 135px;
+    width: 1022px;
+}
+#mailbox_text {
+    float:left;
+    text-align: left;
+    width: 500px;
+}
+#mailbox_img {
+    float:right;
+}
+
+/* cat guitar */
+#cat_guitar_mashup {
+    margin-top: 40px;
+    height: 135px;
+    width: 1022px;
+    align-self: center;
+}
+
+#cat_guitar_text {
+    float:right;
+    text-align: right;
+    width: 500px;
+}
+
+#Cat_guitar_img {
+    float:left;
+}
