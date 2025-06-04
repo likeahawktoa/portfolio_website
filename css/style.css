@@ -11,7 +11,21 @@ body{
 #header {
     width: 1024px;
     height: 150px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
     background-color: rgb(113, 198, 227);
+    display: flex;
+    justify-content: left;
+    font-family: PT Sans light, sans-serif;
+    font-size: 40px;
+    
+}
+#header:hover {
+    width: 1024px;
+    height: 150px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: #add8e6;
     display: flex;
     justify-content: left;
     font-family: PT Sans light, sans-serif;
@@ -39,7 +53,7 @@ width: 125px;
     transition-property: background-color;
     transition-duration: 0.5s;
 }
-/* #nav_buttons:hover {
+#nav_buttons:hover {
     top: 0px;
     display:flex;
     width: 1024px;
@@ -53,7 +67,7 @@ width: 125px;
     margin-bottom: 0px;
     transition-property: background-color;
     transition-duration: 0.5s;
-} */
+}
 
 
 #nav_button {
@@ -104,7 +118,22 @@ width: 125px;
     height: 430px;
     width: 552px;
     align-items: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
     background-color: rgb(113, 198, 227);
+    flex-shrink: 5;
+    padding: 10px;
+    text-align: center;
+    float: right;
+}
+#about_amber:hover {
+    order: 2;
+    height: 430px;
+    width: 552px;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: #add8e6;
     flex-shrink: 5;
     padding: 10px;
     text-align: center;
@@ -229,7 +258,20 @@ width: 125px;
 #contact {
     width: 1024px;
     height: 350px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
     background-color: rgb(113, 198, 227);
+    margin-top: 100px;
+    font-family: PT Sans light, sans-serif;
+    font-size: 40px;
+    margin-top: 1520px;
+}
+#contact:hover {
+    width: 1024px;
+    height: 350px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: #add8e6;
     margin-top: 100px;
     font-family: PT Sans light, sans-serif;
     font-size: 40px;
